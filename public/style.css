@@ -1,0 +1,268 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*header starts here*/
+.maincontainer{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+}
+.innercontainer{
+	width: 1000px;
+	height: 90px;
+	margin: auto;
+}
+/*header ends here*/
+
+/*navcontainer starts here*/
+.navcontainer{
+	width: 100%;
+	height: 30px;
+	background: #1c5978;
+}
+.navinnercontainer{
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+	font-size: 12px;
+	padding: 8px 0px;
+	font-family: arial;
+	color: #fff;
+}
+/*navcontainer ends here*/
+
+/*contentcontainer starts here*/
+.contentcontainer{
+	width: 100%;
+	height: 600px;
+	background: #fff;
+}
+.contentinnercontainer{
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	font-family: arial;
+	font-size: 13px;
+}
+.contentcontainer2{
+	width: 100%;
+	height: 700px;
+	background: #fff;
+}
+.contentinnercontainer2{
+	width: 1000px;
+	height: 700px;
+	margin: auto;
+	font-family: arial;
+	font-size: 13px;
+}
+.contentinnercontainer .login{
+	color: #1c5978;
+	font-family: arial;
+	font-size: 17px;
+	margin-bottom: 8px;
+	margin-top: 30px;
+}
+.loginbtn{
+	background: #1c5978;
+	padding: 4px 12px;
+	border: none;
+	color: white;
+	margin: 8px 3px;
+}
+.tabbtn{
+	background: #1c5978;
+	padding: 4px 12px;
+	border: none;
+	color: white;
+	/*margin: 8px 3px;*/
+}
+.searchbtn{
+	background: #1c5978;
+	padding: 4px 12px;
+	border: none;
+	color: white;
+	margin: 4px 3px;
+}
+.deletebtn{
+	background: #1c5978;
+	padding: 4px 12px;
+	border: none;
+	color: white;
+	margin: 4px 3px;
+}
+form{
+	text-align: center;
+}
+input[type="text"]{
+	width: 200px;
+	height: 20px;
+	margin:5px 0px;
+	margin-left: 10px;
+	border: solid 1px #ccc;
+}
+select{
+	width: 200px;
+	height: 22px;
+	margin:5px 0px;
+	margin-left: 10px;
+	border: solid 1px #ccc;
+}
+.addpagedata input[type="text"]{
+	margin:1px 0px;
+}
+.addpagedata select{
+	margin:0px;
+}
+.addpagetable{
+	width: 100%; 
+	text-align: left;
+}
+.addpagedata{
+	width: 99%;
+	padding-left: 0px;
+}
+/*contentcontainer ends here*/
+
+/*footer section*/
+.footer{
+	width: 100%;
+	height: 30px;
+	background: #1c5978;
+}
+.footerinnercontainer{
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+}
+/*----second page ---*/
+.signup{
+	background: #e2e2e2;
+	border: none;
+	/*color: ;white*/
+	float: right;
+}
+.left{
+	/*background: #78a8f5;*/
+	height: 600px;
+	width: 200px;
+	float: left;
+}
+.right{
+	height: 600px;
+	width: 740px;
+	margin-left: 10px;
+	float: left;
+}
+.left ul{
+	list-style: none;
+	border:1px solid grey;
+	font-size: 13px;
+	border-top: none;
+}
+.left ul li{
+	border-bottom:1px solid grey;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	margin: 0;
+	padding: 6px;
+}
+.left ul li:last-child{
+	border: none;
+}
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding-left: 10px;
+  height: 22px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  font-family: arial;
+}
+
+.imp{
+	font-size: 15px;
+	font-weight: 550;
+	color: #1c5978;
+	margin: 10px 0px;
+}
+.imp1{
+	height: 25px;
+}
+.imp3{
+	font-size: 13px;
+}
+.addyserinfo{
+	width: 120px;
+	text-align: right;
+	float: left;
+	margin-right: 5px;
+	margin-top: 7px;
+}
+hr{
+	margin-bottom: 10px;
+	width: 60%;
+}
+.addyserinfo1{
+	margin-top: 15px;
+}
+.addyserinfo2{
+	margin-top: 15px;
+}
+.addyserinfo3{
+	margin-top: 150px;
+}
+.content{
+	width: 580px;
+	float: right;
+}
+.content input[type="text"]{
+	width: 575px;
+	height: 245px;
+}
+.displaystatus input[type="text"]{
+	width: 50px;
+}
+.displaystatus input[type="checkbox"]{
+	margin-top: 5px;
+}
+.signup{
+	float: right;
+}
+.right p{
+	margin-bottom: 12px;
+}
+.chtcnp{
+	text-align: center;
+}
+.chtcnp span{
+	color: black;
+}
+.maintable{
+	width: 100%;
+}
+.ineertable{
+	width: 100%; 
+	margin-bottom: 10px;
+}
+.datatable{
+	width: 100%; 
+	text-align: center; 
+	margin-top: 10px;
+}
+.red{
+	color: red;
+}
+.Preview{
+	float: left;
+	padding: 6px 0px;
+}
+.dltbtn{
+	float: right; 
+	margin: 0px 20px;
+}
+div ul a {
+	list-style: none;
+}
